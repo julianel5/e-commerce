@@ -1,0 +1,83 @@
+#header{
+    width: 556px;
+    height: 190px;
+    background-color:#F5F5F5 ;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+h1 {
+    font-size: 36px;
+    color: #03658C;
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: 800;
+
+
+
+}
+#intermedio{
+    width: 556px;
+    height: 30px;
+    background-color:#F5F5F5;
+    margin-left: 30%;
+    position: absolute;
+}
+#body{
+    width: 556px;
+    height: 563px;
+    border-radius: 12px;
+    background-color: #B8F5FA;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+h2{
+    font-size: 35px;
+    color: #03658C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+
+
+}
+#input{
+
+    width: 411px;
+    height: 52px;
+    border-radius: 15px;
+    border-color: white;
+    margin-left: 10%;
+
+
+
+}
+#input::placeholder{
+
+    color: #47525E;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+
+
+
+}
+#btnlogin{
+    width: 260px;
+    height: 58px;
+    background-color:#03658C;
+    border-radius: 31px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 8%;
+}
+#p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #47525E;
+}
+#p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    color: #03658C;
+    font-weight: 600;
+}

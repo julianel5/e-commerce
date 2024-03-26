@@ -1,0 +1,60 @@
+footer {
+    height: 156px;
+    background-color: #A9D1EA;
+
+}
+
+h1 {
+    font-size: 36px;
+    color: #03658C;
+    font-family: 'Bree Serif', sans-serif;
+
+
+
+}
+
+h2 {
+    font-size: 28px;
+    color: #03658C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+
+}
+
+p {
+    font-size: 24px;
+    color: #03658C;
+    margin-left: 15%;
+    font-weight: 500;
+}
+
+#column {
+
+    height: 130px;
+    margin-top: -2%;
+
+}
+
+#LogoFacebook {
+    margin-left: 0%;
+}
+
+#LogoTwitter {
+    margin-left: 15%;
+}
+
+#LogoInstagram {
+    margin-left: 15%;
+}
+
+#raya {
+    width: 5px;
+    height: 140px;
+    background-color: #03658C;
+    margin-top: -20px;
+    margin-left: -20px;
+    opacity: 0.62;
+
+
+}
