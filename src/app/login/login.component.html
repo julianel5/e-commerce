@@ -1,0 +1,59 @@
+    <div id="header" class="card-title text-center">
+
+        <h1><img src="../assets/Images/Logo.png" alt="" width="150px" height="166px" id="Logo">Farmalac</h1>
+
+    </div>
+    <div id="intermedio"></div>
+
+    <div id="body" class="card-title text-center">
+        
+        <br>
+        <h2>Enter your account</h2>
+        <br>
+        <br>
+        <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email"
+                [ngClass]="!loginForm.get('correo')?.valid && (loginForm.get('correo')?.dirty || loginForm.get('correo')?.touched) ? 'is-invalid' : 'is-valid'"
+                formControlName="correo" id="input" required autofocus>
+            <div class="error-messages">
+                <ng-container *ngFor="let error of errorMessages.correo">
+                    <div class="error-message"
+                        *ngIf="loginForm.get('correo')?.hasError(error.type) && (loginForm.get('correo')?.dirty || loginForm.get('correo')?.touched)"
+                        id="mensajeerror">
+                        {{ error.message }}
+                    </div>
+                </ng-container>
+            </div>
+
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Password"
+                [ngClass]="!loginForm.get('contrasena')?.valid && (loginForm.get('contrasena')?.dirty || loginForm.get('contrasena')?.touched) ? 'is-invalid' : 'is-valid'"
+                formControlName="contrasena" id="input">
+            <div class="error-messages">
+                <ng-container *ngFor="let error of errorMessages.contrasena">
+                    <div class="error-message"
+                        *ngIf="loginForm.get('contrasena')?.hasError(error.type) && (loginForm.get('contrasena')?.dirty || loginForm.get('contrasena')?.touched)"
+                        id="mensajeerror">
+                        {{ error.message }}
+                    </div>
+                </ng-container>
+            </div>
+
+        </div>
+        <button type="submit" id="btnlogin" class="btn btn-primary"  (click)="submit()">ENTER</button>
+        <div class="card-title text-center">
+            <br>
+            <br>
+            <p id="p1">You don't have an account?</p>
+        
+            <a href="registro" style="text-decoration: none">
+            <p id="p2">Create an account</p>
+            </a>
+        </div>
+
+
+       
+
+    </div>
+    <br>
